@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">My<span>Portfolio</span></div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Marcelisa Libron</span></h1>
+                <h2>Web Developer</h2>
+                <p>I create simple, beautiful, functional websites that help my co-students for their projects.
+                    <br> I enjoy learning new skills that help me grow both creatively and professionally.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="myphoto.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="myphoto.jpg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>Hi! I'm Marcelisa, a second-year student in Bachelor of Science in Information System. I'm a person that is passionate in learning more about technology, especially web development and data science. I enjoy building simple websites, learning new coding languages, and solving real-world problems with creative solutions.</p>
+                    <p>In school project I'm using HTML/CSS, and JavaScript, and I'm currently learning React.
+                       In my free time, I enjoy reading about tech trends, watching coding tutorials, and hiking.</p>
+                    <div class="about-info">
+                        <div>
+                            <span>Name:</span>
+                            <p>Marcelisa Libron</p>
+                        </div>
+                        <div>
+                            <span>Email:</span>
+                            <p>marcelisalibron@gmail.com</p>
+                        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                    <p>30%</p>
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                    </div>
+                    <p>20%</p>
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <p>20%</p>
+                    <div class="skill-bar">
+                        <div class="skill-level javascript"></div>
+                    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Punta, Dipolog City, Philippines</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>marcelisalibron@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+63910 542 7625</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/maymay.ondog" target=“_blank” rel=“nooper noreferrer" arial-label=“Facebook”><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/marcelisa_libron/" target=“_blank” rel=“nooper noreferrer" arial-label=“Instagram”><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@123maymayh?lang=en" target=“_blank” rel=“nooper noreferrer" arial-label=“Tiktok”><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
